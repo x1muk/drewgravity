@@ -1,0 +1,68 @@
+h1 {
+    color: #fff;
+    margin-bottom: 20px;
+    text-align: right;
+}
+.display-6 {
+    text-align: center;
+}
+body {
+    background-color: #121212;
+}
+
+.btn, .btn-secondary, .btn-sm {
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.btn-secondary {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #6c757d00;
+    --bs-btn-border-color: #6c757d00;
+    --bs-btn-hover-color: rgb(255, 255, 255);
+    --bs-btn-hover-bg: #5c636a00;
+    --bs-btn-hover-border-color: #565e6400;
+    --bs-btn-focus-shadow-rgb: 130,138,145;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #565e6400;
+    --bs-btn-active-border-color: #51585e00;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: rgba(255, 255, 255, 0);
+    --bs-btn-disabled-bg: #6c757d00;
+    --bs-btn-disabled-border-color: #6c757d00;
+}
+
+p {
+    color: #fff;
+    font: -apple-system;
+    font-size: 24px;
+}
+
+.text-centr {
+    color: #fff;
+    margin-bottom: 20px;
+}
+.text-tik {
+    text-align: left;        
+}
+
+@media screen and (max-width:575px){
+    .text-tik{
+        text-align:center;
+        }
+    }
+.text-tik-price {
+    text-align: right;
+    color: #fff;
+    font-weight: 300;
+}
+
+#h1-price {
+    margin-bottom: 0px;
+}
+
+
+span {
+    text-align: left;
+    color: #fff;
+}
