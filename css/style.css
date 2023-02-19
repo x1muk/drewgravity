@@ -1,5 +1,5 @@
 h1 {
-    color: #fff;
+    color: #000000;
     margin-bottom: 20px;
     text-align: right;
 }
@@ -43,7 +43,8 @@ p {
     margin-bottom: 20px;
 }
 .text-tik {
-    text-align: left;        
+    text-align: left;
+    color: #fff;        
 }
 
 @media screen and (max-width:575px){
@@ -65,4 +66,38 @@ p {
 span {
     text-align: left;
     color: #fff;
+}
+
+#bg {
+    position:fixed;
+    z-index: -1;
+    top:0;
+    left:0; 
+    min-width:100%;
+    min-height:100%;
+}
+
+.bg-secondary {
+    --bs-bg-opacity: 0.2;
+    background: #7e22229d!important;
+}
+
+#pills-home-tab {
+    color: #000000;
+    font-weight: 700;
+}
+
+#pills-profile-tab {
+    color: #000000;
+    font-weight: 700;
+}
+
+#pills-video-tab {
+    color: #000000;
+    font-weight: 700;
+}
+
+#pills-contact-tab {
+    color: #000000;
+    font-weight: 700;
 }
